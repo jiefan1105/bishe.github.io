@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的留言板.添加留言</title>
+    <link rel="stylesheet" type="text/css" href="message.css">
+</head>
+
+<body style="background-size:cover;">
+    <center>
+        <h2>樊宇飞的留言板</h2>
+        <input type="button" value="添加留言" onclick="location.href='message.html'" class="button" />
+        <input type="button" value="查看留言" onclick="location.href='select.php'" class="button" />
+        <input type="button" value="退出登陆" onclick="location.href='../login/login.html'" class="button" />
+        <hr width="70%">
+    </center>
+    <div class="k1">
+        <form action="add.php" method="post">
+            <h1>添加一个消息
+                <span>有什么新鲜事要跟我分享。</span>
+            </h1>
+            <label>
+                <span>你的名字 :</span>
+                <input type="text" name="user" placeholder="Your Name" />
+            </label>
+            <label>
+                <span>留言标题 :</span>
+                <input type="text" name="title" placeholder="Please input title" />
+            </label>
+            <label>
+                <span>留言内容 :</span>
+                <textarea name="content" placeholder="Your Message to Us"></textarea>
+            </label>
+            <div style="margin-left:125px">
+                <input type="submit" value="提交" class="submit">
+                <input type="reset" value="重置" class="reset">
+            </div>
+    </div>
+    </form>
+
+</body>
+
+</html>

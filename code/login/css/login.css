@@ -1,0 +1,34 @@
+/*登录*/
+body {
+	/*设置背景图片*/
+	background:url(https://pic.rmb.bdstatic.com/34b16096806298e36923b489d55e25fb.jpeg);
+}
+
+h1 {
+    /*设置标题的上边距为50px*/
+    margin-top: 50px;
+    /*设置标题居中显示*/
+     text-align: center;
+    }
+
+div {
+    /*设置这个div的宽度*/
+    width: 300px;
+    /*设置这个div的高度*/
+    height: 150px;
+    /*设置这个div的背景颜色*/
+    background: #f0f0f0;
+    /*设置上边距为150%,左右边距为自适应（居中显示）*/
+    margin: 50px auto;
+    /*加大一下内边距，看起来不那么挤，也可以理解为内容在容器里的缩进*/
+    padding: 20px;
+    /*设置文本居中显示*/
+    text-align: center;
+    }
+
+table,td {
+        /*设置表格居中显示*/
+        margin: auto;
+        /*设置表格内边距，看起来不那么挤*/
+        padding: 5px;
+        } 

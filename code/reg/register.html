@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <!--引入favicon图标-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--引入初始化css-->
+    <link rel="stylesheet" href="css/base.css" />
+    <!--引入注册页面的css-->
+    <link rel="stylesheet" href="css/regeister.css" />
+</head>
+
+<body>
+    <div class="w">
+        <header>
+            
+        </header>
+        <div class="registerarea">
+            <h3>注册新用户
+                <div class="login">我有账号，去<a href="../login/login.html">登陆</a></div>
+            </h3>
+            <div class="reg_form">
+                <form action="register.php" method="post">
+                    <ul>
+                        <li>
+                            <label for="">用户名：</label>
+                            <input type="text" class="inp" name="username">
+                        </li>
+                        <li>
+                            <label for="">联系方式：</label> 
+                            <input type="text" class="inp" name="tel">
+                        </li>
+                        <li>
+                            <label for="">登录密码：</label>
+                            <input type="password" class="inp" name="passwordone">
+                        </li>
+                        <li>
+                            <label for="">确认密码：</label>
+                            <input type="password" class="inp" name="passwordtwo">
+                        </li>
+                        <li class="agree"><input type="checkbox" name="" id="">
+                            同意协议并注册 <a href="#">《知晓用户协议》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成注册" class="btn" name="register">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+        </div>
+        <footer>
+            <div class="mod_copyright">
+                <div class="links">
+                    <a href="#">关于我们</a> | <a href="#">联系我们</a>  
+                </div>
+                <div class="copyright">
+                    地址：山西省太原市山西省太原市小店区许坦东街29号
+                    
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
